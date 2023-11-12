@@ -312,6 +312,8 @@
   .str-chat__list .str-chat__reverse-infinite-scroll {
     padding-top: 0px;
   }
+
+  
   
   .str-chat__thread-list .channel-empty__container {
     display: none;
@@ -361,6 +363,10 @@
     left: initial;
     right: 100%;
     border-radius: var(--border-radius-md);
+  }
+
+  .str-chat__channel-list {
+   background: unset
   }
   
   .channel-list__container {
