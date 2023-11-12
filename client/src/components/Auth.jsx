@@ -34,7 +34,7 @@ const Auth = () => {
 
     const { userName, password, phoneNumber, avatarURL } = form;
 
-    const URL = "http://localhost:5001/auth";
+    const URL = "https://medical-pager-demo-j-e7d32ba593ce.herokuapp.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName }, // use these values to add to browser cookies
